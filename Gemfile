@@ -8,6 +8,10 @@ gem 'rails', '4.0.2'
 group :development, :test do
   # Add RSpec generators
   gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
