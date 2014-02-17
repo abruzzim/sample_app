@@ -10,9 +10,14 @@
   </head>
   <body>
     <%= render 'layouts/header' %>
-    <div class="container">
-      <%= yield %>
-      <%= render 'layouts/footer' %>
+    <!-- Make presentation responsive -->
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <%= yield %>
+          <%= render 'layouts/footer' %>
+        </div>
+      </div>
     </div>
   </body>
 </html>
