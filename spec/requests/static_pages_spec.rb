@@ -14,9 +14,9 @@ describe "StaticPages" do
       visit '/static_pages/home'
       expect(page).to_not have_title("#{base_title} | Home")
     end
-    it "has the content 'Sample App Home'" do
+    it "has the content 'Sample App'" do
       visit '/static_pages/home'
-      expect(page).to have_content('Sample App Home')
+      expect(page).to have_content('Sample App')
     end
 
   end
