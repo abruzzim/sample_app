@@ -25,6 +25,9 @@ module SampleApp
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+    # Surpress I18n deprecation warning message.
+    I18n.enforce_available_locales = true
+
     # Make Bootstrap compatible with the Asset Pipeline
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
