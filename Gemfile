@@ -20,6 +20,7 @@ group :test do
   gem 'selenium-webdriver'
   # Add natural English-like testing syntax
   gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 # Use postgresql as the database for Active Record
