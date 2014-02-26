@@ -8,6 +8,8 @@ gem 'bootstrap-sass', '2.3.2.0'
 
 group :development, :test do
   # Add RSpec generators
+  gem 'pry'
+  gem 'pry-rails'
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'spork-rails'
